@@ -1,0 +1,41 @@
+Model: deepseek-vl2, Dataset: pew, ChartType: scatter
+References and Candidates: 15 and 15
+BLEU:
+0.3621350829547619
+CIDER:
+0.00023678823881853034
+ROUGE:
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.10029 (95%-conf.int. 0.06350 - 0.13875)
+1 ROUGE-1 Average_P: 0.24875 (95%-conf.int. 0.18179 - 0.31392)
+1 ROUGE-1 Average_F: 0.13050 (95%-conf.int. 0.08995 - 0.17120)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.01226 (95%-conf.int. 0.00579 - 0.01980)
+1 ROUGE-2 Average_P: 0.03656 (95%-conf.int. 0.01378 - 0.06459)
+1 ROUGE-2 Average_F: 0.01726 (95%-conf.int. 0.00797 - 0.02885)
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00551 (95%-conf.int. 0.00221 - 0.00934)
+1 ROUGE-3 Average_P: 0.01673 (95%-conf.int. 0.00518 - 0.02999)
+1 ROUGE-3 Average_F: 0.00790 (95%-conf.int. 0.00298 - 0.01346)
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00100 (95%-conf.int. 0.00000 - 0.00247)
+1 ROUGE-4 Average_P: 0.00397 (95%-conf.int. 0.00000 - 0.00988)
+1 ROUGE-4 Average_F: 0.00156 (95%-conf.int. 0.00000 - 0.00381)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.05916 (95%-conf.int. 0.04097 - 0.07786)
+1 ROUGE-L Average_P: 0.17070 (95%-conf.int. 0.11469 - 0.22684)
+1 ROUGE-L Average_F: 0.08028 (95%-conf.int. 0.05746 - 0.10457)
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.01875 (95%-conf.int. 0.01304 - 0.02455)
+1 ROUGE-W-1.2 Average_P: 0.13054 (95%-conf.int. 0.08904 - 0.17193)
+1 ROUGE-W-1.2 Average_F: 0.03103 (95%-conf.int. 0.02213 - 0.04033)
+---------------------------------------------
+1 ROUGE-S* Average_R: 0.01109 (95%-conf.int. 0.00541 - 0.01839)
+1 ROUGE-S* Average_P: 0.06173 (95%-conf.int. 0.03758 - 0.09073)
+1 ROUGE-S* Average_F: 0.01477 (95%-conf.int. 0.00841 - 0.02170)
+---------------------------------------------
+1 ROUGE-SU* Average_R: 0.01289 (95%-conf.int. 0.00642 - 0.02109)
+1 ROUGE-SU* Average_P: 0.07222 (95%-conf.int. 0.04549 - 0.10222)
+1 ROUGE-SU* Average_F: 0.01732 (95%-conf.int. 0.01022 - 0.02496)
+
+
