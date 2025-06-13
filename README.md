@@ -16,7 +16,7 @@ An example output: deepseek-vl2_scatter.txt
 #
 #
 
-# ROUGE
+# ROUGE Installation and Setup
 
 # pyrouge - Linux/MacOS
 
