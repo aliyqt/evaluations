@@ -1,6 +1,17 @@
 # evaluations
 
+python=3.10 OK
+
 `pip install summ_eval`
+
+**Inputs**:
+1. A folder of generated texts: /results   
+2. The gold reference file: sorted_charts_output_pew_test.txt
+
+**Output**:
+1. [model]_[chartType].txt
+
+An example output: deepseek-vl2_scatter.txt
 
 #
 #
