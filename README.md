@@ -9,7 +9,7 @@ python=3.10 OK
 2. The gold reference file: sorted_charts_output_pew_test.txt
 
 An example generated text file: /results/deepseek-vl2_pew_scatter.txt   
-/results/[model]_[dataset] _[chartType].txt
+Structure: /results/[model]_[dataset] _[chartType].txt
 
 **Output**:
 1. [model]_[chartType].txt
@@ -55,7 +55,7 @@ cd ROUGE-1.5.5
 
 pwd
 
-pyrouge_set_rouge_path [`]pwd[`]
+pyrouge_set_rouge_path \`pwd\`
 
 (e.g., pyrouge_set_rouge_path /Users/xxxx/desktop/pyrouge/ROUGE-1.5.5)
 
