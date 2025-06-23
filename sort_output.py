@@ -1,7 +1,9 @@
 import json
 
+MODEL_NAME = "unichart"
+
 # Load the JSON file
-with open("tiny_chart_result.json", "r", encoding="utf-8") as file:
+with open("output_"+MODEL_NAME+".json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 # Load the reference file
@@ -24,7 +26,7 @@ print(len(type_data_set), type_data_set.keys())
 # Split into separated files regarding chart types
 for type_data in type_data_set.keys():
     count = 0
-    with open("tinychart_pew_"+type_data+".txt", "w") as outfile:
+    with open(MODEL_NAME+"_pew_"+type_data+".txt", "w") as outfile:
         for line in type_data_set[type_data]:
             outfile.write(line+"\n")
             count += 1
@@ -38,7 +40,7 @@ for item in data:
     output_data.append(id + " | " + actual)
 
 total_count = 0
-with open("tinychart_pew_all.txt", "w") as outfile:
+with open(MODEL_NAME+"_pew_all.txt", "w") as outfile:
     for line in output_data:
         outfile.write(line+"\n")
         total_count += 1
